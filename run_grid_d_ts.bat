@@ -1,0 +1,1 @@
+start /min "" "d:\BootDrv\Aloha\BIN\grind.exe" 
