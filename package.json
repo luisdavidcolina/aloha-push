@@ -1,13 +1,13 @@
 {
   "name": "alohapush",
   "version": "1.0.0",
-  "description": "",
+  "description": "Sync the aloha ncr sales in real time",
   "main": "index.js",
   "scripts": {
     "start": "node index.js"
   },
   "keywords": [],
-  "author": "",
+  "author": "Luisda",
   "license": "ISC",
   "dependencies": {
     "dbffile": "^1.7.1",
