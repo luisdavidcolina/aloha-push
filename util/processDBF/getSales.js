@@ -1,5 +1,5 @@
 const { DBFFile } = require("dbffile");
-const { LOCALDIR } = require("../config");
+const { LOCALDIR } = require("../../config");
 const gndtndrFile = `${LOCALDIR}${"\\DATA\\gndtndr.dbf"}`;
 const revFile = `${LOCALDIR}${"\\DATA\\rev.dbf"}`;
 const tdrFile = `${LOCALDIR}${"\\DATA\\tdr.dbf"}`;

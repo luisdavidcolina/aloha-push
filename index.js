@@ -1,6 +1,7 @@
 const cron = require("node-cron");
-const { runGrid, readDBF, updateDB, processRecords } = require("./util");
+const { runGrid, readDBF, updateDB } = require("./util");
 
+const MAX_PUSH_CHECKS = 10;
 let guestChecks = 0;
 
 class Main {
@@ -14,13 +15,12 @@ class Main {
       guestChecks = overview.guestChecks;
       updateDB({
         overview,
-        tndr: tndrs.slice(0,10),
+        tndr: tndrs.slice(0, MAX_PUSH_CHECKS),
         salesByCategory,
         salesByHours,
         salesByItems,
       });
     }
-    
   }
 }
 cron.schedule("*/10 * * * * *", () => {

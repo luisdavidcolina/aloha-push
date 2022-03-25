@@ -1,8 +1,8 @@
-const getSales = require("./getSales");
-const getSalesByHours = require("./getSalesByHours");
-const getSalesByItems = require("./getSalesByItems");
-const getSalesByCategory = require("./getSalesByCategory");
-const processRecords = require("./processRecords");
+const getSales = require("./processDBF/getSales");
+const getSalesByHours = require("./processDBF/getSalesByHours");
+const getSalesByItems = require("./processDBF/getSalesByItems");
+const getSalesByCategory = require("./processDBF/getSalesByCategory");
+const processRecords = require("./processDBF/processRecords");
 
 const readDBF = async () => {
   const tndrs = await getSales();

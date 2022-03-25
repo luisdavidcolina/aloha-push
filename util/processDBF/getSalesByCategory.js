@@ -1,5 +1,5 @@
 const { DBFFile } = require("dbffile");
-const { LOCALDIR } = require("../config");
+const { LOCALDIR } = require("../../config");
 const gnditemFile = `${LOCALDIR}${"\\DATA\\gnditem.dbf"}`;
 const catFile = `${LOCALDIR}${"\\DATA\\cat.dbf"}`;
 

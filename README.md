@@ -22,9 +22,14 @@ npm install
 
 //create .env file with .env.example template
 
+```
+
+## Usage
+```
 npm run start
 
 //or create windows service
+
 npm install -g qckwinsvc
 qckwinsvc
 
