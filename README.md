@@ -1,8 +1,8 @@
 <h2 align="center">Aloha Push</h2>
 
-**Aloha Push** is a real-time aloha ncr data collection service. Run minified processes, read dbf files and push data to firebase.
+**Aloha Push** is a real-time aloha pos ncr data collection service. Run minified processes, read dbf files and push data to firebase.
 
-## Features:
+## Features
 
 - 🔧 **Run bats and minified processes**
   - Run grind processes minimized to generate dbf files containing all current data on the aloha server.
@@ -38,7 +38,7 @@ qckwinsvc
 ## Contribute
 
 - [Fork](#)
-- [Patreon](#)
+- [Donate](https://paypal.me/luisdapaypal?country.x=PE&locale.x=es_XC)
 
 
 
