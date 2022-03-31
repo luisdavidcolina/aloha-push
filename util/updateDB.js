@@ -1,6 +1,5 @@
 const firebase = require("firebase");
-const app = require("../firebase");
-const { STORE } = require("../config");
+const { STORE, app } = require("../config");
 
 const updateDB = async ({
   overview,
